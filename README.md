@@ -49,17 +49,11 @@ Polarizability > 25</b>
 <img src="https://media-hosting.imagekit.io/09500bc907ae48d8/Screenshot%20(227)%20a.png?Expires=1841338287&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=XsI~Qc5fLojGAXJXfOH-k0wx8wJRHX0AjHijQGoHRyrTZ4S9t5a8x4iFpLFk18EZKZp9uzd1N8M8MABpX0rGEkyy5Cw6kT1M1MvMAZhhvqojxinb5YoWifqLBYkL7kK6hlfgU-CDdtLOBgbZJZcRcHYfDcLORA0wmMEzwHxyXmpBbt~BoRx4Jm3KKmJvVnNDb4NulIEtNcxTFEt2dCEFyhU00hfbvmHJpDZk2ax-Dy9Y9Zrq9SFrcsjjIWpZVh1qtzgMQ8-16RnRy9abI73Kg9Pe-3ig~CxOnZtJ9CInseqPO15NeAVaQpVAr7c1x08Gek7fO9PrC0tYomdbCIYqWA__"/>
 <br />
 <br />  
-<h2>Summary Statistics:</h2>
-<strong>1.Mean Temperature Change:</strong> The mean temperature change varies over time, ranging from approximately -0.24°C to 1.52°C. There is a consistent trend of increasing mean temperature change over the years, suggesting a general warming pattern.<br />
-<br />
-<strong>2.Standard Deviation (Std):</strong> Standard deviation quantifies the spread or dispersion of temperature change values around the mean. A higher standard deviation indicates greater variability in temperature change. For instance, in 2022, the standard deviation is relatively high at 0.67°C, indicating significant variability in temperature change for that specific year.<br />
-<br />
-<strong>3.Minimum and Maximum Temperature Change:</strong>The minimum and maximum temperature change values denote the lowest and highest observed temperature changes across all years. The minimum temperature change recorded is approximately -1.80°C in 1966, while the maximum temperature change observed is about 3.55°C in 2020.<br /> 
-<br />
-<strong>4.The average mean temperature</strong> from 1961 to 2022 has increased by approximately 1.159917°C, indicating a warming trend in global temperatures. The standard deviation reflects how much temperature values deviate from the mean temperature. The trend in standard deviation values indicates that the deviation was higher in 2022 compared to 1961.<br /> 
-<br />
-<strong>5.Percentiles:</strong>such as the 25th, 50th, and 75th percentiles, offer valuable insights into the distribution of temperature change values. For example, the 25th percentile (also known as Q1) signifies the temperature change value that is exceeded by 25% of the dataset. Similarly, the 50th percentile (Q2 or median) denotes the temperature change value surpassed by 50% of the dataset, while the 75th percentile (Q3) indicates the temperature change value exceeded by 75% of the dataset.<br /> 
-<br />  
+<h2>Functional Group Sensitivity:</h2>
+The sequence of dipole memont is HF > MP2 > DFT-B3LYP > CCSD(T)
+and the sequence for polarizability is MP2 > DFT-B3LYP > CCSD(T) > HF
+MP2 consistently predicts higher values for both dipole moment and polarizability.<br />
+<br /> 
 <p align="center">
 <br />  
 <img src="https://media-hosting.imagekit.io/c257b9040e174561/Screenshot%20(228)%20a.png?Expires=1841338515&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=SHUEvYxp73wZ5uFO8NMecD5eOT~IBSYrTKbJkvQBInMPtY9EwJswHX7CQfceXAXgIIq8nQ6s6hCGGYyy7O2yRvbeOlJQXClS0EmZtga5WIEwywPNdBghoVhFSqJ-KdV3gfwPvh~xatVsnsu4conRMj7QSWDw1lKnyjBAC77onMJL56cJNydIAfyylBp6CSZ1CdpQ69uqJYVFkwYS1nr~EJoKYroxxbkWgi0r5gwecun5xyrWEKcQE38ACJ32FJzyKtOyAMVPLdGNn3MqBvjAnxPCGxKNDfThxnZWPRf6Ty9-OJkLAE4VHD6If33au5WylyM3RX8sM8qK279tlMKbPA__"/>
@@ -75,11 +69,8 @@ Polarizability > 25</b>
 <br />
 
 <h2>Recent Trends:</h2>
-This graph is plotted for 62 year gap between Global temperature across all the countries in the dataset. It shows that the temperature has been significantly increased during this time period. The graphs also gives individual variations while all the countries shows a positive temperature effect only Zimbabwe and botswana shows an avearge decrease in temperature during 62 years.<br />
-<h2>Implications and Further Analysis:</h2>
-<br /> 
-The detected warming trend in global surface temperatures carries substantial implications for climate change and its ramifications on ecosystems, weather phenomena, sea levels, and human communities.<br /> 
-Additional analysis could delve into unraveling the factors driving the documented temperature fluctuations, evaluating regional discrepancies, and investigating the potential repercussions for biodiversity, extreme weather occurrences, and societal adaptation measures.<br /> 
+Calculate the HOMO-LUMO gap for each molecule and determine the distribution shape. Find mean, median, skewness, and identify outliers.<br />
+
 <br /> 
 <p align="center">
 <br />
@@ -90,6 +81,8 @@ Additional analysis could delve into unraveling the factors driving the document
 <br />
 <br />
 <img src="https://media-hosting.imagekit.io/46a9f18381f14cd3/Screenshot%20(233)%20a.png?Expires=1841339241&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=uFMUf1QGuu7rCqyvN9l33Ma2OgWAWmXCktCRgXHcTiJwhLiv0Yq0M0hvFjyoSI~kCZSbAnDRXoxIEGHe7T5mH-kQ7zNSXgBZuBptsaLSJ5QMCw4-xChsbJkrMHG-ecwKQwOREH8cSQl8hgQfY5nuzK~BZMnteEkcYelf9djqMgBtCRNxY-GvyJbZcaJKjOSWRejmVs3E-MhkrdKWSIo98ni1Q03dAk~iL392HwReaypj254VxkWoTXMBYB9lZhIsB09rsScFceBlyhugBl7KbolCbAjFJjIJbH7CIN-XKauayURwnfi2tuZgmZiCcbhGBxTlnsp9FStUOdKDh3VFVA__"/>
+<p>Skewness = 0.1 means the distribution is slightly right-skewed, but very close to normal.
+There are no outliers in the data.</p>
 <br />
 <br />
 <img src="https://media-hosting.imagekit.io/39216c55707e420a/Screenshot%20(234)%20a.png?Expires=1841339271&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=FA1b-7NyfFB00opayp1aP3SdNEaLP~OysgStrUgMVhE9-eW~uN4a6eDscNcyHtb5rVsjjxDeaoRfmGjSr~IjnrjHRyOx1GQc~Xc15P0cAzBrNhAsyEnmPd~U~Yp5u0mGn7m2H5tFWKaOZdK4jolCzmN7u2pkqn88Ne2ZPDgQh5sqDvoq95z0h2sHXMuoeAQoaGMpCQZBDiONm2ngDKHaU-OL-vSWJwGNHYsjVSOuESu2~9rjRvOhQK9cbJQ1nrZXmWEjCXgDnuN7LOBRlI5Dl1VKgd4tbMYXp2a5lwpRtlrjsvUPHy3Z5UHKPEBmkjR4ZhEPG2Ogd0KgGvxXhj9xlQ__"/>
@@ -99,11 +92,12 @@ Additional analysis could delve into unraveling the factors driving the document
 <br />
 <br />
 These graphs shows that there were more negatively contributing countries during 1961 than during 2022. In 2022 there were only two countries which happend to have negative impact on global temperature as compared to 1961 where almost half of the countries in the list had negative impact. This explains why temperature increases with each passing year.<br />
-<h2> Trend according to Sub-regions: </h2> 
+<h2> Charge Distribution Consistency: </h2> 
 <br />  
 <p align="center">
 <br />
 <img src="https://media-hosting.imagekit.io/3898f464fe8445e6/Screenshot%20(236)%20a.png?Expires=1841339631&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=NNQVGUg~7bR6-jnFYHYdyLwTe~nLFuWpJL6hOrmv4iaQpjP89dckzUuTj65b-cwON-VCKewTs0JkJ7nMiHJZUmQG1vSaExkWW3n0nv-~VlZ4B5p-J7d04IU9ICIJhWTjiHqKSRHN9PK14fyphlzStF9dndxjrK3q4GyiF9nSOHttUUkI~81ytHhKskJ68Jj7Ie8I2yY144Lozota4MuA8VxyqNDWabfJ40UsNyNEGLwkdl-wmRY6rb2HQvrU78WlDl1MzDAX-FdFF0-~aiE~yeetO~DEiHyuzUJal8CdyJz3r0fRUhgB2ZjzcZ1kb0-xBOGptrjPdbHUfcBZGQ5A8g__"/>
+ <h2> Solvent Energy:</h2> 
 <img src="https://media-hosting.imagekit.io/121f331c617946c2/Screenshot%20(237)%20a.png?Expires=1841339658&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=2CbVweKTpX75b2wKeKMFevQR-YviA~1S3nfZ65D-ASW0DcSRHwxNfV5sz7-T3zAfZiEwWK7umcCBuEiqOqA2plCOXMm-~j5fuW8Pxir2yYii9sGedJ3oBTFBJDLUkVs80521o0qzsAe-j3d8mmXDP8f9igVh~bVVpYyKMxQIB73gAJNkz6KedVvexJpD6eJbEZuzKkG0CtYvg2znKEv6Sya6oUa0qECX7KY50ZutRHRulheX8Sv5yXW-TyZiF5cTPkiia1JzESZK1FbwkueS2xPVeN-Dj9tkV0AtyQmOAGnkGDUW6DE7tbGNYl4o~gHQ7uVFYWFsKnZbRe4ogQB2kw__"/>
 <br />
 <br />
@@ -121,7 +115,6 @@ Notably, the years 2014, 2015, 2016, 2019, 2020, 2021, and 2022 stand out as par
 <br />  
 <p align="center">
 <br />
-<img src="https://media-hosting.imagekit.io/85bfa97b70d74c1e/Screenshot%20(239)%20a.png?Expires=1841339721&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Bl70ym6BevtkI3F72rQoZABiGy8Z1LRjzwaiahEVmrHGWWoQtlZprAW44MA1rg~PQa5dFMhAgOcZ418hDYn6PJMmsx1oZ-Vszn4j83uctZhargZ511DU3H6pe9oIRTzoj-L31JgVeqYryN38fiPwxNFnzQpW86F1kIthGvWnsbX1G42gF4XirgdLmHV~uCEWd2cHHbUZdB5Xa5Y4G8jtLXXW-OGksvATOrNHk4TbK7XF4c0Z6G3xjrFPgVyzUq034kVJ7VJTXntLYFlcRyVizXjuJsWQi6rT7En4sAarAtv4nPz5PxoLVKwLHt-lkDsx11BdTWmDZ39z8hKSfJ5W6w__"/>
 <img src="https://media-hosting.imagekit.io/f14a182b1f864981/Screenshot%20(241)%20a.png?Expires=1841340145&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Zp~ZDsvsVpALq0A6m0OBPbep3fvCBOHuUU1IsY6C0jjBrI1~qoTVZBs6dKefDkkSF47bNPUC3YAg3zx4m0yxhnzPrbEL0Mj~tim6ADmusN5EdkwT4OxO8dEVcrm2USAanqQ7PIaN3l1EX9Oeuvi~lC74aCTs839w5PP37ZLitHj76nA6rBUSWAhO7hl~fx22ZFQ9E0blSZ1pyuJi2AXMuN2gDiz11gdleuWoTRrhesf4gAq2V-YXIAIYJTYGkCx7r71rgEbiESI31ihzB2LQS9rsYAXu~Y~tGVgqNN2zgVlOzAV7fVvijqWzwNLyPep9yMGWVVrpjfp2j7SNDqHHnQ__"/>
 <br />
 <br />
