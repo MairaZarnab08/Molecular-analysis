@@ -1,44 +1,59 @@
-# Molecular-analysis
-
 <h1>A thorough Molecular data analysis</h1>
 
 <h2>Description:</h2>
-This project involves an in-depth analysis of molecular properties using a dataset containing computational chemistry results. The analysis is performed using Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Ast. Key objectives of the project include:
+This project involves a comprehensive analysis of molecular properties using a dataset derived from computational chemistry simulations. Utilizing Python and powerful data analysis libraries—Pandas, NumPy, Matplotlib, Seaborn, and Ast—the project explores various physical and electronic properties of molecules calculated using different quantum chemical methods.
+
+The core focus is on statistical evaluation, visualization, and interpretation of molecular features such as band gap, dipole moment, polarizability, solvent energy, and charge distribution. Custom metrics like molecular complexity and energy efficiency index are defined and used to assess molecular performance.
 <br />
 <h2>Objective:</h2>
+To extract and compare molecular characteristics computed using various quantum mechanical methods (e.g., DFT-B3LYP, MP2, CCSD(T), HF).
+
+To identify trends, correlations, and anomalies in physical properties across a diverse molecular dataset.
+
+To derive meaningful chemical insights through data filtering and custom metric computation
 
 <br />
 <h1>Key Components:</h1>
-1.Generate descriptive statistics and correlation matrices for numerical molecular properties.</b>
+Descriptive Statistics & Correlation Analysis
+Generate summary statistics and correlation heatmaps to understand relationships among numerical molecular properties.
 
-2.Compare different calculation methods (e.g., DFT-B3LYP) based on average dipole moment and polarizability.</b>
+- <b>Method Comparison</b>
+  Evaluate and compare methods such as DFT-B3LYP and MP2 based on average dipole moments and polarizabilities.
 
-3.Visualize data distributions (e.g., band gap) using histograms and KDE plots.</b>
+- <b>Data Visualization</b>
+Visualize the distribution of properties like band gap using histograms and KDE plots.
 
-4.Detect outliers in the band gap using the interquartile range (IQR) method.</b>
+- <b>Outlier Detection</b>
+Apply the Interquartile Range (IQR) method to identify outliers in the band gap distribution.
 
-5.Parse and analyze charge distribution data to identify molecules with uneven charge spread.</b>
+- <b>Charge Distribution Analysis</b>
+Parse molecular charge data to detect molecules with significantly uneven charge spread.
 
-6.Analyze solvent energy trends relative to molecular weight and calculation method.</b>
+- <b>Solvent Energy Trends</b>
+Study the relationship between solvent energy, molecular weight, and calculation method.
 
-7.Create and rank custom molecular metrics such as:</b>
+- <b>Custom Metrics Formulation</b>
 
-Complexity = (Atom Count × Polarizability) / (1 + Rotatable Bonds)
+Structural Complexity Score = (Atom Count × Polarizability) / (1 + Rotatable Bonds)
 
-Efficiency Energy = –Solvent Energy / Molecular Weight
+Energy Efficiency Index = –Solvent Energy / Molecular Weight
 
-8.Filter molecules based on property thresholds:</b>
+- <b>Data Filtering</b>
+Apply property-based thresholds for focused analysis:
 
-Band gap > 3.0 eV</b>
+Band gap > 3.0 eV
 
-Dipole moment between 1.5–2.5 Debye</b>
+Dipole moment between 1.5–2.5 Debye
 
-Polarizability > 25</b>
+Polarizability > 25
+
+Functional Group Sensitiv
 
 <h2>Utilities Used:</h2>
 
 - <b>Python</b> 
-- <b>Pandas,Matplotlib,Numpy</b>
+- <b>Pandas,Matplotlib</b>
+- <b>Numpy,Ast<b>
 
 <h2>Program walk-through:</h2>
 <p align="center">
@@ -50,9 +65,8 @@ Polarizability > 25</b>
 <br />
 <br />  
 <h2>Functional Group Sensitivity:</h2>
-The sequence of dipole memont is HF > MP2 > DFT-B3LYP > CCSD(T)
-and the sequence for polarizability is MP2 > DFT-B3LYP > CCSD(T) > HF
-MP2 consistently predicts higher values for both dipole moment and polarizability.<br />
+MP2 consistently predicts higher values for both.
+<br />
 <br /> 
 <p align="center">
 <br />  
@@ -64,13 +78,12 @@ MP2 consistently predicts higher values for both dipole moment and polarizabilit
 <br />
 <img src="https://media-hosting.imagekit.io/ba0783eda950490c/Screenshot%20(230)%20a.png?Expires=1841338777&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yoCD6kTpjIPD8K~aVu6U-twonxWUJGAFhg5IYW8jqNdgcdF7h88tWyBAAB4wVU1~VD6LECfyq4HyILFhiBUUEwj7O5zdHYhxjvEdeaLjW9eXb7vpahrClRMR5ZHbmo~An7CZPfJhOKwNXs8lDYLvYss9GIbY4StoPq0Hxq59YqtbJPUgM07kHkp~c0d-FKg6Oa7H2hzggpDcR12tqzozEz2kfkuTjsptdTxtvmQWpGmM412QRZalooxP4wIU8N0T41JUz0Ib7AGU1NWdh8OLOTuIewhuzbehQYaQQaAg0cW5nhRzIMT7fN6jZ76QAI1NuORxAGGg-pgOa3tJsBxDuQ__"/>
 <br />
-<br />"/>
 <br />
 <br />
-
+<p>The grouped bar chart compares the mean dipole moment and polarizability values across four quantum chemical calculation methods: DFT-B3LYP, HF, CCSD(T), and MP2. The orange bars represent polarizability, which is significantly higher in magnitude than the dipole moment (blue bars) for all methods. Among them, MP2 predicts the highest polarizability, followed by HF, CCSD(T), and DFT-B3LYP, while CCSD(T) shows the highest mean dipole moment, with DFT-B3LYP yielding the lowest. This visual highlights the variability in property prediction across methods, underscoring the importance of method selection in computational molecular analysis.</p>
+<br />
 <h2>Recent Trends:</h2>
-Calculate the HOMO-LUMO gap for each molecule and determine the distribution shape. Find mean, median, skewness, and identify outliers.<br />
-
+<br />
 <br /> 
 <p align="center">
 <br />
@@ -80,6 +93,9 @@ Calculate the HOMO-LUMO gap for each molecule and determine the distribution sha
 <img src="https://media-hosting.imagekit.io/01d9bd3f7cfb47ef/Screenshot%20(232)%20a.png?Expires=1841339035&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=n4~aD6FVrhqhJp9DFoLako~LV7aLfRmhTJPiHlM~7KR~~FXJYU0gGKCNWlrj-i-JVSG41Sz1E3ZGLYTZZHTbW093JPkhiMXNV2C7iIYMQcIgHzx3TCzskavMgoViE2SlCyLdijJp7gsTYvxEWNlqme~8piieQsmtRZPM5d1FOeMw5wdWPz2TP~OX18gi3g0LjbNtC2UA~LLERND8Gv6dSALPu-JWiNiu3KgfYH7Y8wfLptT3hcYQ~huSyxqUMdENaHOdbgHTXEjYCTSW83L5bbRmQUN-ZiqFqAl~jQwISHPhdiz-1PHzHM16kRrhTp1fmjaAcyzAC5dfQKPhoGrBKw__"/>
 <br />
 <br />
+ <p>The chart represents a near-normal distribution with values concentrated around 3.5. The histogram is overlaid with a smooth KDE curve, indicating a slightly right-skewed but mostly symmetric shape. This suggests that the data follows a normal trend with minimal deviation. Overall, no significant outliers are present in the dataset.</p>
+ <b>
+ <b>
 <img src="https://media-hosting.imagekit.io/46a9f18381f14cd3/Screenshot%20(233)%20a.png?Expires=1841339241&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=uFMUf1QGuu7rCqyvN9l33Ma2OgWAWmXCktCRgXHcTiJwhLiv0Yq0M0hvFjyoSI~kCZSbAnDRXoxIEGHe7T5mH-kQ7zNSXgBZuBptsaLSJ5QMCw4-xChsbJkrMHG-ecwKQwOREH8cSQl8hgQfY5nuzK~BZMnteEkcYelf9djqMgBtCRNxY-GvyJbZcaJKjOSWRejmVs3E-MhkrdKWSIo98ni1Q03dAk~iL392HwReaypj254VxkWoTXMBYB9lZhIsB09rsScFceBlyhugBl7KbolCbAjFJjIJbH7CIN-XKauayURwnfi2tuZgmZiCcbhGBxTlnsp9FStUOdKDh3VFVA__"/>
 <p>Skewness = 0.1 means the distribution is slightly right-skewed, but very close to normal.
 There are no outliers in the data.</p>
@@ -91,7 +107,7 @@ There are no outliers in the data.</p>
 <img src="https://media-hosting.imagekit.io/ec449b9f6ffa4b1d/Screenshot%20(235)%20a.png?Expires=1841339295&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=KSNntwNPhc2CPFOf0F~bp1HFSX~LqNnuZ6HhWupMnfhzC5pTjyXvnDlJhf1qJRVQ~CcP7GP-~UsnSu7udq8o2WTy0TjUGn6KpVcfMUcOvQP4olG6MJLv8roLciF8LWGzV3fntqrNUnn1QXHpaEq1jiPk62OyVyaIlYQ~~mavi58G2A348PaJf2KFDYDRpotDUxeK9ux1-YWa4tCTrknfQCXcniki9sSN1EklX1xl4nw3EX58BDy7VwzIN30yyFCgvpHtgBVSJ5VrH1lWo7AKXq2wgOP9-FB5MiuRs4flkKgcxwwYb1s9oEcRrRcmG3tU6KYdRxRrMLzNCqb6K9MdfQ__"/>
 <br />
 <br />
-These graphs shows that there were more negatively contributing countries during 1961 than during 2022. In 2022 there were only two countries which happend to have negative impact on global temperature as compared to 1961 where almost half of the countries in the list had negative impact. This explains why temperature increases with each passing year.<br />
+<p>The boxplot displays the distribution of band gap values, showing the interquartile range (IQR), median, and potential outliers. The median band gap is around 3.5 eV, with values mostly ranging between approximately 1.5 eV and 5.5 eV. The absence of points outside the whiskers indicates no significant outliers. This suggests a fairly consistent spread of band gap values across the dataset</p>
 <h2> Charge Distribution Consistency: </h2> 
 <br />  
 <p align="center">
@@ -108,25 +124,31 @@ These graphs shows that there were more negatively contributing countries during
 <br />
 <br />
 
-The temperature change across diffrent regions in database is plotted and graph depicts that Europe and Central asia has highest positive impact on warming trend while the curve for middle east and north africa shows anomalies (indicating years of high negative impact), and catches up with the curve for Europe and Central asia in long run while rest of three region shows similar behaviour.Data from the last decade (2010-2022) reveals a sustained period of elevated temperatures, with most years experiencing temperature changes above the average.<br /> 
-Also the data from the last decade (2010-2022) indicates a sustained period of elevated temperatures, with most years experiencing above-average temperature changes.
-Notably, the years 2014, 2015, 2016, 2019, 2020, 2021, and 2022 stand out as particularly warm years, with temperature changes exceeding 1.4°C in some instances.<br />
-<h2>Trend according to income group</h2>
+
+<h2>Structural Complexity Score: </h2>
 <br />  
 <p align="center">
 <br />
 <img src="https://media-hosting.imagekit.io/f14a182b1f864981/Screenshot%20(241)%20a.png?Expires=1841340145&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Zp~ZDsvsVpALq0A6m0OBPbep3fvCBOHuUU1IsY6C0jjBrI1~qoTVZBs6dKefDkkSF47bNPUC3YAg3zx4m0yxhnzPrbEL0Mj~tim6ADmusN5EdkwT4OxO8dEVcrm2USAanqQ7PIaN3l1EX9Oeuvi~lC74aCTs839w5PP37ZLitHj76nA6rBUSWAhO7hl~fx22ZFQ9E0blSZ1pyuJi2AXMuN2gDiz11gdleuWoTRrhesf4gAq2V-YXIAIYJTYGkCx7r71rgEbiESI31ihzB2LQS9rsYAXu~Y~tGVgqNN2zgVlOzAV7fVvijqWzwNLyPep9yMGWVVrpjfp2j7SNDqHHnQ__"/>
 <br />
 <br />
+<h2>Energy effeciency index: </h2>
 <img src="https://media-hosting.imagekit.io/4dbdce6ff4e54d5f/Screenshot%20(242)%20a.png?Expires=1841340185&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=SkZHD2c8Z5du60OgWDIJyi-D5Ywd6h9KI8RG1KmOFQ6YkYv6uXRapXIDBTIMpFTMuJ7S7IeSw8UXc2zaR8zoi1uk1BgISvBoMgDGk-7lLhfpfXC~CItQFHrld3Q9H~uouqDn~M6GUVWQgWKcimdgufSJ8Rqr8qdDky7nbYP7uJGZp9kNJKgAlnyWvIBtvbd0GbZZQzyVNpgUEz68ZxdWxBZId6v1gHX4C6glNGzUoUJq5UL8W4P04DxQXt66kDNOn9r98Wd-G8dhMDazm~WmzFVltRkz~llgSjxSAWlT~ejLF41Vh2yCJhcY7O9Nvts6-gg6SJXB2r3zipz9xJu7eA__"/>
 <br />
 <br />
+<h2>Correlation Heat map: </h2>
 <img src="https://media-hosting.imagekit.io/4eb9cda1487b403a/Screenshot%20(243)%20a.png?Expires=1841340229&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=oQ1eJXZgvIjLuHbv8ENRw9zp9K0-1tenTpOVawCKhkDJygWQqSWNMSMfK25VNBVuJMGrfZboZTvnkERUUwA5DrQVecjqzhiqSH2BdWrPOFZfOxyd-85KirBdGfjChvUFPjp3zVrImNxwrZPp-NQu3cqwtE9ttnoL90s88tDnNcm1fzmScu8M7alSIjmWSBLb3Tk5muXmjrp5Xks0Y5GAXGCs4nTnRH6u-mYnuo9o4t-ioLJqe3tsdHENNuUyjBwLnRdrlXx1gSLQSJ5oeKwZgbjh-LA2ZWlUQF6Brubz8eqScJo1Yz-6O~qb6IzGu3W80WPVlDBKOBnwjJtKm8Gy5A__"/>
 <br />
 <br />
+<b>
 <img src="https://media-hosting.imagekit.io/45fceeafe59a4a71/Screenshot%20(244)%20a.png?Expires=1841340260&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=VvqNj61eIBzp-WvC3e4yR2A1IY9k0wM0OoLR~Lw~S~NAip9roTsdoVq-BfHXMdk5ox5Rmx926aoBOD94HApXHKQOUDRm5Jh2ry30MxDv81cMoE-UwXj9QYR8VFdYyx95Ka3GXt9bWAz62cMRe2aadyxSuFZXQ1x~INMdiHigRvlLSjWDBZ9BsYWuuh9~D-mdbu0r19jsrmavRV8m5CM4g9oXQ1synLKGFqZJSiAs0k-nkwTlRssaHrYc5nCUEbLTwTqHWPn8VGejPiJ-8tQ98MULzq7SQm1-fAFr6xpPlHNnRWoBlzRVjkTpF4GmDsy5NqTXCMwNBRtK9yD5qQjvJQ__"/>
 <br />
 <br />
+  <h2>Filtering data on the basis of: </h2>
+-<b>Band gap
+-<b>Dipole moment
+-<b>Polarizability
+-<b>Calculation method
 <img src="https://media-hosting.imagekit.io/500e1794a9b24d85/Screenshot%20(245)%20a.png?Expires=1841340286&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EjeeT2cSomMiGVr1WBoziDX2af8CnoIlNBdqwEPCc6h1Ve38-a-p~hsf07lxgvEAK6gZlliS2u4-wyErMPVb5kVBt0a-NVXurq1LvPYkU5p9vbfE~BX7tJZ03pnpo3Z2WN7jwxNWOpY6ftvoA5MCXejlZe0RCVeRO9Ou84Qe2X-9Gs~cAENWbgQwDF4zMyXJwKj1C2~UiWXHEToCVeX5QQN6QOZM2wEFMNwJ27yDN7K6WrU2hrBzcF3~0PzQ4zG7pIzgbddAXecmQ4AdsbxQ1UBvlOx6qUG-SaC-JKI3X6z1howZEbi7Vvx38Bq3IIgCHxCvw5peCGh82bjv1EY3TA__"/>
 <br />
 <br />
@@ -140,18 +162,6 @@ Notably, the years 2014, 2015, 2016, 2019, 2020, 2021, and 2022 stand out as par
 <br />
 <br />
 
-Income groups are also observed to have significant impact on the global temperature the bar for high income group is higher than any other group in the observation <br />
-<br />
-<strong>High-Income Group Impact:</strong> High-income individuals have a larger carbon footprint due to greater consumption, industrial activity, and energy usage.<br />
-<strong>Consumption Patterns:</strong> High-income individuals engage in activities with higher emissions, such as frequent air travel and energy-intensive lifestyles.<br />
-<strong>Industrial Activity:</strong>Industries catering to high-income markets operate on larger scales and use more energy-intensive production processes, contributing to higher emissions.<br />
-<strong>Energy Consumption:</strong> High-income households consume more energy for heating, cooling, and electronic devices, mostly sourced from fossil fuels.<br />
-<strong>Policy Implications:</strong> Targeted policies like carbon pricing and renewable energy incentives can help mitigate emissions from high-income groups.<br />
-<br />
-<h2>Significance:</h2>
-This project is important because it helps to understand how the Earth's climate has changed over a long time, 62 years. By looking at big sets of data and using graphs and charts, observations can be made on how things like temperature and weather patterns have changed all around the world.
-This information is really useful for people who make decisions about the environment, like government leaders and scientists. They can use what is found out to make better plans to deal with climate change and protect our planet. It's like having a roadmap to help make the right choices to keep the Earth healthy for us and for future generations.
-<br />
 
 
 <!--
