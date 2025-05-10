@@ -117,6 +117,7 @@ There are no outliers in the data.</p>
 <img src="https://media-hosting.imagekit.io/121f331c617946c2/Screenshot%20(237)%20a.png?Expires=1841339658&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=2CbVweKTpX75b2wKeKMFevQR-YviA~1S3nfZ65D-ASW0DcSRHwxNfV5sz7-T3zAfZiEwWK7umcCBuEiqOqA2plCOXMm-~j5fuW8Pxir2yYii9sGedJ3oBTFBJDLUkVs80521o0qzsAe-j3d8mmXDP8f9igVh~bVVpYyKMxQIB73gAJNkz6KedVvexJpD6eJbEZuzKkG0CtYvg2znKEv6Sya6oUa0qECX7KY50ZutRHRulheX8Sv5yXW-TyZiF5cTPkiia1JzESZK1FbwkueS2xPVeN-Dj9tkV0AtyQmOAGnkGDUW6DE7tbGNYl4o~gHQ7uVFYWFsKnZbRe4ogQB2kw__"/>
 <br />
 <br />
+<p>The solvent energy calvulated by HF method is highest, while all the other three methods gives compareable results</p>
 <img src="https://media-hosting.imagekit.io/a29c066d79264485/Screenshot%20(240)%20a.png?Expires=1841339685&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lU19OLby2xaR8Z2cNWlDy54jTpRnLUFB4a6w70rNLjgJVKN4DLWdUOtV1g4xdu~1hYTOKUEj0lJaGGhoO8UK750yL~NkXcQ4K-pO5KEMEvwBSMI9I~JY6Blwwazt9zHSFWw9XqoLnBXEwfhcNDvurMjIMViIVCHfoByOKj81RZPX~853bjxeczMhhYeqgFo4uuKYzhmqNYfDXdPGoXAXc30sg5CmFWtaRlm0bB~s-rvx-QdHl8K4L5pxtZfmbygaJGCPnr2Jc5eMDUf~U3lhZuT4qBdsurg8IzEzMPE9IWJ2IS~SiLZYYzDxwcjoStxp~H~HL8Jhzxrz10zv1evTJQ__"/>
 <br />
 <br />
