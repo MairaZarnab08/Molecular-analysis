@@ -145,6 +145,20 @@ There are no outliers in the data.</p>
 <img src="https://media-hosting.imagekit.io/45fceeafe59a4a71/Screenshot%20(244)%20a.png?Expires=1841340260&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=VvqNj61eIBzp-WvC3e4yR2A1IY9k0wM0OoLR~Lw~S~NAip9roTsdoVq-BfHXMdk5ox5Rmx926aoBOD94HApXHKQOUDRm5Jh2ry30MxDv81cMoE-UwXj9QYR8VFdYyx95Ka3GXt9bWAz62cMRe2aadyxSuFZXQ1x~INMdiHigRvlLSjWDBZ9BsYWuuh9~D-mdbu0r19jsrmavRV8m5CM4g9oXQ1synLKGFqZJSiAs0k-nkwTlRssaHrYc5nCUEbLTwTqHWPn8VGejPiJ-8tQ98MULzq7SQm1-fAFr6xpPlHNnRWoBlzRVjkTpF4GmDsy5NqTXCMwNBRtK9yD5qQjvJQ__"/>
 <br />
 <br />
+<p>
+<h3>Breakdown of the Matrix:</h3>
+Diagonal elements (1.00): The correlation between a property and itself is always 1.00, indicating perfect positive correlation.
+
+The top-left and bottom-right values (both 1.00) represent the correlation of Polarizability with Polarizability and Dipole Moment with Dipole Moment, respectively.
+
+Off-diagonal elements (-0.08): These represent the correlation between the two properties.
+
+The correlation between Polarizability and Dipole Moment is -0.08, indicating a very weak negative correlation. This suggests that as one property increases, the other might slightly decrease, but the relationship is almost negligible (close to 0).
+
+<h3>Color Bar:</h3>
+Red indicates strong positive correlations (closer to 1), while blue indicates negative correlations (closer to -1).
+
+Since the correlation between Polarizability and Dipole Moment is negative but weak, it’s colored in blue.</p>
   <h2>Filtering data on the basis of: </h2>
 -<b>Band gap
 -<b>Dipole moment
@@ -162,6 +176,34 @@ There are no outliers in the data.</p>
 <img src="https://media-hosting.imagekit.io/883ca2d0e9de4598/Screenshot%20(248)%20a.png?Expires=1841340367&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=0VqZhx62c~s633q4BDrxnOU2Dyfz5oyBgEZV-fl8MzUGHVNd7Dvj3NEqgSNnBBPcDi~r1aYT-BZwPGa~1LXAEhufVnXtJagXs3L8sTAd8zh8T-TQqNSsx0f1nc8uoYtBaDnvhsSUdDgU5ihk2lO491HyHmNXzuorwiw7hgj-6NlQE2SXfkIZQnp0zrf3GXY3~LslG~SeXJ673-c1GIg~AElj3Zq3jexqjFTvKtcQDWe1cKB7ot~yUy28eJxPSfE3vJj8f08tKZuUbWTUk8dZlzm0BwAxXzsTErPLDrgf3Q3XkkibRC3U~2bo4r2x26v0p2dtwDis3Mb7Bg40VYyjdg__"/>
 <br />
 <br />
+<p>
+<h2>Project Findings</h2>
+1.	Dipole Moment and Polarizability Trends:
+o	<h3>Dipole Moment Sequence:</h3> HF > MP2 > DFT-B3LYP > CCSD(T)
+o	Polarizability Sequence: MP2 > DFT-B3LYP > CCSD(T) > HF
+o	MP2 consistently predicts higher values for both dipole moment and polarizability compared to other methods.
+2.	Method Comparison – Grouped Bar Chart:
+o	Polarizability (Orange Bars): Significantly higher than dipole moment across all methods.
+o	Highest Polarizability: MP2
+o	Highest Dipole Moment: CCSD(T)
+o	Lowest Dipole Moment: DFT-B3LYP
+o	There is clear variability in predicted properties across computational methods, emphasizing the need for careful method selection.
+3.	Band Gap Distribution:
+o	Histogram + KDE: Values cluster around 3.5 eV, forming a near-normal distribution with slight right skewness (Skewness ≈ 0.1).
+o	Boxplot: Median ≈ 3.5 eV, IQR ~1.5 to 5.5 eV, no outliers detected.
+o	Band gap values are consistently distributed across compounds.
+4.	Solvent Energy Analysis:
+o	HF Method: Predicts the highest solvent energy.
+o	Other Methods (MP2, DFT-B3LYP, CCSD(T)): Show comparable solvent energy values.
+5.	Derived Indices:
+o	Structural Complexity Score = (Atom Count × Polarizability) / (1 + Rotatable Bonds)
+o	Energy Efficiency Index = –Solvent Energy / Molecular Weight
+6.	Correlation Analysis:
+o	Correlation between Polarizability and Dipole Moment: –0.08 (very weak negative correlation).
+o	Interpretation: Essentially no linear relationship; as one increases, the other does not consistently increase or decrease.
+o	Color-coded Matrix: Strong positive self-correlations (red), weak negative inter-property correlation (blue).
+
+</p>
 
 
 
