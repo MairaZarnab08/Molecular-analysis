@@ -28,6 +28,10 @@ The core focus is on statistical evaluation, visualization, and interpretation o
 <h2>Program walk-through:</h2>
 <p align="center">
 <br/>
+<img src="https://i.imgur.com/UGqRqSG.png"/>
+<img src="https://i.imgur.com/2Lvl1iE.png "/>
+<br />
+<br />
 <img src="https://media-hosting.imagekit.io/0ee75341842b4af4/Screenshot%20(198)%20a.png?Expires=1841337944&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=imIz2IateWmkNPA5jY5uX8TqSTqoIKtyRdjT-m0qVaSasHHrl7FimHmzGFueQs~QqRXFX7kPAadVazpGUZ6sVJ-gzxNcSMVmK0sVsqwgxVTKKZiLzXIjksIXaQImNYq8dwocg0FVH2rJ2PEZZ8oe3NuBYh3LwnyK6fSsI-7Yj0T6SOeSRm5seTtHaJ~3BMvNbKUKH-qlI7Ai-hrN4Z3hj0Ow2BBVwKBM0sYWBXFadCigThfLvI2IhPqIu40IiYaQGIgrosgbdJK8ictEouvameh365aMC1lb48SJ8JFuHGa1WMm~1OT34O~SiuTzojvE0tHju05p24ilvHloWUlyzA__"/>
 <br />
 <br />
@@ -37,69 +41,69 @@ The core focus is on statistical evaluation, visualization, and interpretation o
 <h2>Functional Group Sensitivity:</h2> 
 <p align="center">
 <br />  
-<img src="https://media-hosting.imagekit.io/c257b9040e174561/Screenshot%20(228)%20a.png?Expires=1841338515&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=SHUEvYxp73wZ5uFO8NMecD5eOT~IBSYrTKbJkvQBInMPtY9EwJswHX7CQfceXAXgIIq8nQ6s6hCGGYyy7O2yRvbeOlJQXClS0EmZtga5WIEwywPNdBghoVhFSqJ-KdV3gfwPvh~xatVsnsu4conRMj7QSWDw1lKnyjBAC77onMJL56cJNydIAfyylBp6CSZ1CdpQ69uqJYVFkwYS1nr~EJoKYroxxbkWgi0r5gwecun5xyrWEKcQE38ACJ32FJzyKtOyAMVPLdGNn3MqBvjAnxPCGxKNDfThxnZWPRf6Ty9-OJkLAE4VHD6If33au5WylyM3RX8sM8qK279tlMKbPA__"/>
+<img src="https://i.imgur.com/eZ5Ttf6.png"/>
 <br />
 <br />
-<img src="https://media-hosting.imagekit.io/36253d29732e4e97/Screenshot%20(229)%20a.png?Expires=1841338736&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Aq5XC~hY5XXKsbFYtXbPHZ2erq0DzG2euc2Mtcz1yeZHIcT7G8nPgNBKkq54QKz14zpJvNTiETh8WZO4EYUpzuiMIGQespMo2vka5tOzx8~2ME0j8lwhA88zGzyuasla5TecTIfNxs5nfN8j5yiiWREdpvxXsZqKzQUG5drCJLvLSNZypkDYXp6aA47qj1z6mHCnf5itQDEYD9NYiFeu4q~rGpC29zVPKHg9HrZtWtw9hihSPj~qwlSPgoJxcvjRuA-0WEjsCDvtF1CiY-~~ow7HESqen5pZExwcc7uRiQFGMEydQGdEAVneGSVDHtijGVS-SlzRScMJF9Srl1cVTQ__"/>
+<img src="https://i.imgur.com/Nr1aoWy.png"/>
 <br />
 <br />
-<img src="https://media-hosting.imagekit.io/ba0783eda950490c/Screenshot%20(230)%20a.png?Expires=1841338777&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yoCD6kTpjIPD8K~aVu6U-twonxWUJGAFhg5IYW8jqNdgcdF7h88tWyBAAB4wVU1~VD6LECfyq4HyILFhiBUUEwj7O5zdHYhxjvEdeaLjW9eXb7vpahrClRMR5ZHbmo~An7CZPfJhOKwNXs8lDYLvYss9GIbY4StoPq0Hxq59YqtbJPUgM07kHkp~c0d-FKg6Oa7H2hzggpDcR12tqzozEz2kfkuTjsptdTxtvmQWpGmM412QRZalooxP4wIU8N0T41JUz0Ib7AGU1NWdh8OLOTuIewhuzbehQYaQQaAg0cW5nhRzIMT7fN6jZ76QAI1NuORxAGGg-pgOa3tJsBxDuQ__"/>
+<img src="https://i.imgur.com/gMnyx1E.png"/>
 <br />
 <br />
 <br />
 <br />
-<h2>Data Distribution:</h2>
+<h2>Band Gap Distribution:</h2>
 <p align="center">
 <br />
-<img src="https://media-hosting.imagekit.io/d35c9af20f36477c/Screenshot%20(231)%20a.png?Expires=1841339002&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=RX60o7EDunKJ3RwsjpisCuN5xgef7KzvLfjjm3VJRQgyLYdt~oWFEfGhkvnEYFz0zL9IpH1OEie93SsMUbAo684Iy5mfQNvTXKTTOo1jbM0t8cewOQi9btKljaGHWSi6wtMK38~1BMVBVIBlduEMWQf~1zBFySOrz-u3IECALJVHCdg93~oM0M~Mk~u2XKRQwE5Bb3hXPlcMWoyITD~lCb36g6GBqZPJiiMt4xutp9YS1sljgPK5n4R~LWhPtV1BJ~i~qy15cdyo363sPzBYktpLCB0o93P5JN4ARIY4O9F1EogCk-JAzMVQRjc~-oYE~of9WvRJhrAtsuSDzh5lAA__"/>
+<img src="https://i.imgur.com/76SL2TT.png"/>
 <br />
 <br />
-<img src="https://media-hosting.imagekit.io/01d9bd3f7cfb47ef/Screenshot%20(232)%20a.png?Expires=1841339035&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=n4~aD6FVrhqhJp9DFoLako~LV7aLfRmhTJPiHlM~7KR~~FXJYU0gGKCNWlrj-i-JVSG41Sz1E3ZGLYTZZHTbW093JPkhiMXNV2C7iIYMQcIgHzx3TCzskavMgoViE2SlCyLdijJp7gsTYvxEWNlqme~8piieQsmtRZPM5d1FOeMw5wdWPz2TP~OX18gi3g0LjbNtC2UA~LLERND8Gv6dSALPu-JWiNiu3KgfYH7Y8wfLptT3hcYQ~huSyxqUMdENaHOdbgHTXEjYCTSW83L5bbRmQUN-ZiqFqAl~jQwISHPhdiz-1PHzHM16kRrhTp1fmjaAcyzAC5dfQKPhoGrBKw__"/>
+<img src="https://i.imgur.com/f1G3Yff.png"/>
 <br />
 <br />
  <b>
-<img src="https://media-hosting.imagekit.io/46a9f18381f14cd3/Screenshot%20(233)%20a.png?Expires=1841339241&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=uFMUf1QGuu7rCqyvN9l33Ma2OgWAWmXCktCRgXHcTiJwhLiv0Yq0M0hvFjyoSI~kCZSbAnDRXoxIEGHe7T5mH-kQ7zNSXgBZuBptsaLSJ5QMCw4-xChsbJkrMHG-ecwKQwOREH8cSQl8hgQfY5nuzK~BZMnteEkcYelf9djqMgBtCRNxY-GvyJbZcaJKjOSWRejmVs3E-MhkrdKWSIo98ni1Q03dAk~iL392HwReaypj254VxkWoTXMBYB9lZhIsB09rsScFceBlyhugBl7KbolCbAjFJjIJbH7CIN-XKauayURwnfi2tuZgmZiCcbhGBxTlnsp9FStUOdKDh3VFVA__"/>
+<img src="https://i.imgur.com/BDi2fUq.png"/>
 <br />
 <br />
-<img src="https://media-hosting.imagekit.io/39216c55707e420a/Screenshot%20(234)%20a.png?Expires=1841339271&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=FA1b-7NyfFB00opayp1aP3SdNEaLP~OysgStrUgMVhE9-eW~uN4a6eDscNcyHtb5rVsjjxDeaoRfmGjSr~IjnrjHRyOx1GQc~Xc15P0cAzBrNhAsyEnmPd~U~Yp5u0mGn7m2H5tFWKaOZdK4jolCzmN7u2pkqn88Ne2ZPDgQh5sqDvoq95z0h2sHXMuoeAQoaGMpCQZBDiONm2ngDKHaU-OL-vSWJwGNHYsjVSOuESu2~9rjRvOhQK9cbJQ1nrZXmWEjCXgDnuN7LOBRlI5Dl1VKgd4tbMYXp2a5lwpRtlrjsvUPHy3Z5UHKPEBmkjR4ZhEPG2Ogd0KgGvxXhj9xlQ__"/>
+<img src="https://i.imgur.com/5Ppu6mZ.png"/>
 <br />
 <br />
-<img src="https://media-hosting.imagekit.io/ec449b9f6ffa4b1d/Screenshot%20(235)%20a.png?Expires=1841339295&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=KSNntwNPhc2CPFOf0F~bp1HFSX~LqNnuZ6HhWupMnfhzC5pTjyXvnDlJhf1qJRVQ~CcP7GP-~UsnSu7udq8o2WTy0TjUGn6KpVcfMUcOvQP4olG6MJLv8roLciF8LWGzV3fntqrNUnn1QXHpaEq1jiPk62OyVyaIlYQ~~mavi58G2A348PaJf2KFDYDRpotDUxeK9ux1-YWa4tCTrknfQCXcniki9sSN1EklX1xl4nw3EX58BDy7VwzIN30yyFCgvpHtgBVSJ5VrH1lWo7AKXq2wgOP9-FB5MiuRs4flkKgcxwwYb1s9oEcRrRcmG3tU6KYdRxRrMLzNCqb6K9MdfQ__"/>
+<img src="https://i.imgur.com/020mtrS.png"/>
 <br />
 <br />
 <h2> Charge Distribution Consistency: </h2> 
 <p align="center">
 <br />
-<img src="https://media-hosting.imagekit.io/3898f464fe8445e6/Screenshot%20(236)%20a.png?Expires=1841339631&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=NNQVGUg~7bR6-jnFYHYdyLwTe~nLFuWpJL6hOrmv4iaQpjP89dckzUuTj65b-cwON-VCKewTs0JkJ7nMiHJZUmQG1vSaExkWW3n0nv-~VlZ4B5p-J7d04IU9ICIJhWTjiHqKSRHN9PK14fyphlzStF9dndxjrK3q4GyiF9nSOHttUUkI~81ytHhKskJ68Jj7Ie8I2yY144Lozota4MuA8VxyqNDWabfJ40UsNyNEGLwkdl-wmRY6rb2HQvrU78WlDl1MzDAX-FdFF0-~aiE~yeetO~DEiHyuzUJal8CdyJz3r0fRUhgB2ZjzcZ1kb0-xBOGptrjPdbHUfcBZGQ5A8g__"/>
+<img src="https://i.imgur.com/6adfUDV.png"/>
 <h2> Solvent Energy:</h2> 
-<img src="https://media-hosting.imagekit.io/121f331c617946c2/Screenshot%20(237)%20a.png?Expires=1841339658&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=2CbVweKTpX75b2wKeKMFevQR-YviA~1S3nfZ65D-ASW0DcSRHwxNfV5sz7-T3zAfZiEwWK7umcCBuEiqOqA2plCOXMm-~j5fuW8Pxir2yYii9sGedJ3oBTFBJDLUkVs80521o0qzsAe-j3d8mmXDP8f9igVh~bVVpYyKMxQIB73gAJNkz6KedVvexJpD6eJbEZuzKkG0CtYvg2znKEv6Sya6oUa0qECX7KY50ZutRHRulheX8Sv5yXW-TyZiF5cTPkiia1JzESZK1FbwkueS2xPVeN-Dj9tkV0AtyQmOAGnkGDUW6DE7tbGNYl4o~gHQ7uVFYWFsKnZbRe4ogQB2kw__"/>
+<img src="https://i.imgur.com/NUvvSef.png"/>
 <br />
 <br />
-<img src="https://media-hosting.imagekit.io/a29c066d79264485/Screenshot%20(240)%20a.png?Expires=1841339685&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lU19OLby2xaR8Z2cNWlDy54jTpRnLUFB4a6w70rNLjgJVKN4DLWdUOtV1g4xdu~1hYTOKUEj0lJaGGhoO8UK750yL~NkXcQ4K-pO5KEMEvwBSMI9I~JY6Blwwazt9zHSFWw9XqoLnBXEwfhcNDvurMjIMViIVCHfoByOKj81RZPX~853bjxeczMhhYeqgFo4uuKYzhmqNYfDXdPGoXAXc30sg5CmFWtaRlm0bB~s-rvx-QdHl8K4L5pxtZfmbygaJGCPnr2Jc5eMDUf~U3lhZuT4qBdsurg8IzEzMPE9IWJ2IS~SiLZYYzDxwcjoStxp~H~HL8Jhzxrz10zv1evTJQ__"/>
+<img src="https://i.imgur.com/DToYSTq.png"/>
 <br />
 <br />
-<img src="https://media-hosting.imagekit.io/85bfa97b70d74c1e/Screenshot%20(239)%20a.png?Expires=1841339721&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Bl70ym6BevtkI3F72rQoZABiGy8Z1LRjzwaiahEVmrHGWWoQtlZprAW44MA1rg~PQa5dFMhAgOcZ418hDYn6PJMmsx1oZ-Vszn4j83uctZhargZ511DU3H6pe9oIRTzoj-L31JgVeqYryN38fiPwxNFnzQpW86F1kIthGvWnsbX1G42gF4XirgdLmHV~uCEWd2cHHbUZdB5Xa5Y4G8jtLXXW-OGksvATOrNHk4TbK7XF4c0Z6G3xjrFPgVyzUq034kVJ7VJTXntLYFlcRyVizXjuJsWQi6rT7En4sAarAtv4nPz5PxoLVKwLHt-lkDsx11BdTWmDZ39z8hKSfJ5W6w__"/>
+<img src="https://i.imgur.com/Xu6fGEp.png"/>
 <br />
 <br />
 <h2>Structural Complexity Score: </h2>
 <br />  
 <p align="center">
 <br />
-<img src="https://media-hosting.imagekit.io/f14a182b1f864981/Screenshot%20(241)%20a.png?Expires=1841340145&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Zp~ZDsvsVpALq0A6m0OBPbep3fvCBOHuUU1IsY6C0jjBrI1~qoTVZBs6dKefDkkSF47bNPUC3YAg3zx4m0yxhnzPrbEL0Mj~tim6ADmusN5EdkwT4OxO8dEVcrm2USAanqQ7PIaN3l1EX9Oeuvi~lC74aCTs839w5PP37ZLitHj76nA6rBUSWAhO7hl~fx22ZFQ9E0blSZ1pyuJi2AXMuN2gDiz11gdleuWoTRrhesf4gAq2V-YXIAIYJTYGkCx7r71rgEbiESI31ihzB2LQS9rsYAXu~Y~tGVgqNN2zgVlOzAV7fVvijqWzwNLyPep9yMGWVVrpjfp2j7SNDqHHnQ__"/>
+<img src="https://i.imgur.com/2ayZWbi.png"/>
 <br />
 <br />
 <h2>Energy effeciency index: </h2>
 <br />
-<img src="https://media-hosting.imagekit.io/4dbdce6ff4e54d5f/Screenshot%20(242)%20a.png?Expires=1841340185&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=SkZHD2c8Z5du60OgWDIJyi-D5Ywd6h9KI8RG1KmOFQ6YkYv6uXRapXIDBTIMpFTMuJ7S7IeSw8UXc2zaR8zoi1uk1BgISvBoMgDGk-7lLhfpfXC~CItQFHrld3Q9H~uouqDn~M6GUVWQgWKcimdgufSJ8Rqr8qdDky7nbYP7uJGZp9kNJKgAlnyWvIBtvbd0GbZZQzyVNpgUEz68ZxdWxBZId6v1gHX4C6glNGzUoUJq5UL8W4P04DxQXt66kDNOn9r98Wd-G8dhMDazm~WmzFVltRkz~llgSjxSAWlT~ejLF41Vh2yCJhcY7O9Nvts6-gg6SJXB2r3zipz9xJu7eA__"/>
+<img src="https://i.imgur.com/DzwypQU.png"/>
 <br />
 <br />
 <h2>Correlation Heat map: </h2>
 <br />
-<img src="https://media-hosting.imagekit.io/4eb9cda1487b403a/Screenshot%20(243)%20a.png?Expires=1841340229&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=oQ1eJXZgvIjLuHbv8ENRw9zp9K0-1tenTpOVawCKhkDJygWQqSWNMSMfK25VNBVuJMGrfZboZTvnkERUUwA5DrQVecjqzhiqSH2BdWrPOFZfOxyd-85KirBdGfjChvUFPjp3zVrImNxwrZPp-NQu3cqwtE9ttnoL90s88tDnNcm1fzmScu8M7alSIjmWSBLb3Tk5muXmjrp5Xks0Y5GAXGCs4nTnRH6u-mYnuo9o4t-ioLJqe3tsdHENNuUyjBwLnRdrlXx1gSLQSJ5oeKwZgbjh-LA2ZWlUQF6Brubz8eqScJo1Yz-6O~qb6IzGu3W80WPVlDBKOBnwjJtKm8Gy5A__"/>
+<img src="https://i.imgur.com/ZqJyOBc.png"/>
 <br />
 <br />
 <b>
-<img src="https://media-hosting.imagekit.io/45fceeafe59a4a71/Screenshot%20(244)%20a.png?Expires=1841340260&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=VvqNj61eIBzp-WvC3e4yR2A1IY9k0wM0OoLR~Lw~S~NAip9roTsdoVq-BfHXMdk5ox5Rmx926aoBOD94HApXHKQOUDRm5Jh2ry30MxDv81cMoE-UwXj9QYR8VFdYyx95Ka3GXt9bWAz62cMRe2aadyxSuFZXQ1x~INMdiHigRvlLSjWDBZ9BsYWuuh9~D-mdbu0r19jsrmavRV8m5CM4g9oXQ1synLKGFqZJSiAs0k-nkwTlRssaHrYc5nCUEbLTwTqHWPn8VGejPiJ-8tQ98MULzq7SQm1-fAFr6xpPlHNnRWoBlzRVjkTpF4GmDsy5NqTXCMwNBRtK9yD5qQjvJQ__"/>
+<img src="https://i.imgur.com/Ya8BDtr.png"/>
 <br />
 <br />
 <h2>Filtering data on the basis of: </h2>
