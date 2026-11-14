@@ -1,4 +1,4 @@
-<h1>A thorough Molecular data analysis</h1>
+<h1>Molecular Band Gap Analysis</h1>
 <h2>Description:</h2>
 This project involves a comprehensive analysis of molecular properties. Utilizing Python and powerful data analysis libraries—Pandas, NumPy, Matplotlib, Seaborn, and Ast—the project explores various physical and electronic properties of molecules calculated using different quantum chemical methods.
 
